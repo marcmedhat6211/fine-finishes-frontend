@@ -1,0 +1,15 @@
+.btn-1 {
+  background-color: $color-regular-grey-1;
+  border: none;
+  color: $color-dark-grey;
+  padding: 3px 7px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: $color-regular-grey-1;
+    border: none;
+  }
+}

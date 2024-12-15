@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Home Page</title>
+    <!-- <link rel="shortcut icon" href="img/favicon.png" /> -->
+    <!-- BASE CSS -->
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- BASE CSS END -->
+
+    <!-- PAGE CSS -->
+    <!-- PAGE CSS END -->
+  </head>
+
+  <body>
+    <!-- Preloader -->
+    <div class="preloader-bg"></div>
+    <div id="preloader">
+      <div id="preloader-status">
+        <div class="preloader-position loader"><span></span></div>
+      </div>
+    </div>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+
+    <!-- HEADER -->
+    <nav class="navbar navbar-expand-lg" id="main_navigation_header">
+      <div class="container">
+        <!-- Logo -->
+        <div class="logo-wrapper">
+          <a class="logo" href="index.html">
+            <!-- <img src="img/logo.png" class="logo-img" alt="" /> -->
+            <i class="convert-svg" data-src="img/logo-dark.svg"></i>
+          </a>
+        </div>
+        <!-- Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+          aria-controls="navbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon text-dark"
+            ><i class="ti-menu"></i
+          ></span>
+        </button>
+        <!-- Menu -->
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-dark"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                aria-expanded="false"
+                >About <i class="ti-angle-down text-dark"></i
+              ></a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="about-us.html" class="dropdown-item"
+                    ><span>About us</span></a
+                  >
+                </li>
+                <li>
+                  <a href="clients.html" class="dropdown-item"
+                    ><span>Clients</span></a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="careers.html">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="announcements.html"
+                >Announcements</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="contact-us.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- HEADER END -->
+
+    <!-- Slider -->
+    <header class="header slider-fade">
+      <div class="owl-carousel owl-theme">
+        <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
+        <div
+          class="text-left item bg-img"
+          data-overlay-dark="3"
+          data-background="https://via.placeholder.com/1920x950"
+        >
+          <div class="v-middle caption mt-30">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-7">
+                  <h1>Innovate Desing in Toronto</h1>
+                  <p>
+                    Architecture viverra tellus nec massa dictum the euismoe.
+                    <br />Curabitur viverra the posuere aukue velit.
+                  </p>
+                  <div class="butn-light mt-30 mb-30">
+                    <a href="#" target="_blank"><span>Buy Now</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="text-left item bg-img"
+          data-overlay-dark="4"
+          data-background="https://via.placeholder.com/1920x950"
+        >
+          <div class="v-middle caption mt-30">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-7">
+                  <h1>Innovate Desing in Canada</h1>
+                  <p>
+                    Architecture viverra tellus nec massa dictum the euismoe.
+                    <br />Curabitur viverra the posuere aukue velit.
+                  </p>
+                  <div class="butn-light mt-30 mb-30">
+                    <a href="#" target="_blank"><span>Buy Now</span></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+      <!-- ABOUT SECTION -->
+      <section class="about section-padding">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col-md-6 mb-30 animate-box"
+              data-animate-effect="fadeInUp"
+            >
+              <h2 class="section-title">
+                About <span class="grid__title">Grid</span>
+              </h2>
+              <p>
+                Architecture viverra tristique justo duis vitae diam neque
+                nivamus aestan ateuene artines aringianu atelit finibus viverra
+                nec lacus. Nedana theme erodino setlie suscipe no curabit
+                tristique.
+              </p>
+              <p>
+                Design inilla duiman at elit finibus viverra nec a lacus themo
+                the drudea seneoice misuscipit non sagie the fermen.
+              </p>
+              <p>
+                Planner inilla duiman at elit finibus viverra nec a lacus themo
+                the drudea seneoice misuscipit non sagie the fermen. Viverra
+                tristique jusio the ivite dianne onen nivami acsestion augue
+                artine.
+              </p>
+            </div>
+            <div class="col-md-6 animate-box" data-animate-effect="fadeInUp">
+              <div class="about-img">
+                <div class="img">
+                  <img
+                    src="https://via.placeholder.com/500x340"
+                    class="img-fluid"
+                    loading="lazy"
+                    alt=""
+                  />
+                </div>
+                <div class="about-img-2 about-buro">Canada Office</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ABOUT SECTION END -->
+
+      <!-- MESSAGE FROM FOUNDER SECTION -->
+      <section class="team-details section-padding2">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="section-title">
+                Message From <span class="grid__title">Founder</span>
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 mb-60">
+              <div class="content">
+                <div class="row">
+                  <div class="col-md-5">
+                    <img
+                      src="https://via.placeholder.com/285x330"
+                      class="img-fluid"
+                      loading="lazy"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-md-7">
+                    <div class="text-content v-middle">
+                      <h3>Jason Brown</h3>
+                      <p>
+                        Architecture bibendum eros eget lacus the vulputate sit
+                        amet vehicuta nibhen ulicerain the vitae miss.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- MESSAGE FROM FOUNDER SECTION END -->
+
+      <!-- PROJECTS SECTION -->
+      <section class="projects section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="section-title">
+                Our <span class="grid__title">Projects</span>
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="position-re o-hidden">
+                    <img src="https://via.placeholder.com/545x380" alt="" />
+                  </div>
+                  <div class="con">
+                    <h6><a href="project-details.html">Interior</a></h6>
+                    <h5><a href="project-details.html">Cotton House</a></h5>
+                    <div class="line"></div>
+                    <a href="project-details.html"
+                      ><i class="ti-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="position-re o-hidden">
+                    <img src="https://via.placeholder.com/545x380" alt="" />
+                  </div>
+                  <div class="con">
+                    <h6><a href="project-details.html">Exterior</a></h6>
+                    <h5><a href="project-details.html">Armada Center</a></h5>
+                    <div class="line"></div>
+                    <a href="project-details.html"
+                      ><i class="ti-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="position-re o-hidden">
+                    <img src="https://via.placeholder.com/545x380" alt="" />
+                  </div>
+                  <div class="con">
+                    <h6><a href="project-details.html">Urban</a></h6>
+                    <h5><a href="project-details.html">Stonya Villa</a></h5>
+                    <div class="line"></div>
+                    <a href="project-details.html"
+                      ><i class="ti-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="position-re o-hidden">
+                    <img src="https://via.placeholder.com/545x380" alt="" />
+                  </div>
+                  <div class="con">
+                    <h6><a href="project-details.html">Interior</a></h6>
+                    <h5><a href="project-details.html">Prime Hotel</a></h5>
+                    <div class="line"></div>
+                    <a href="project-details.html"
+                      ><i class="ti-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PROJECTS SECTION END -->
+
+      <!-- VALUES SECTION -->
+      <section class="services section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="section-title">
+                Our <span class="grid__title">Values</span>
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="item">
+                <a href="architecture.html">
+                  <img src="img/icons/values-icon-1.png" alt="" />
+                  <h5>Unleashing Innovation</h5>
+                  <div class="line"></div>
+                  <p>
+                    Architecture bibendum eros eget lacus the vulputate sit amet
+                    vehicuta nibhen ulicera in the vitae miss.
+                  </p>
+                  <div class="numb">01</div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="item">
+                <a href="interior-design.html">
+                  <img src="img/icons/values-icon-2.png" alt="" />
+                  <h5>Pushing Design Boundaries</h5>
+                  <div class="line"></div>
+                  <p>
+                    Architecture bibendum eros eget lacus the vulputate sit amet
+                    vehicuta nibhen ulicera in the vitae miss.
+                  </p>
+                  <div class="numb">02</div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="item">
+                <a href="urban-design.html">
+                  <img src="img/icons/values-icon-3.png" alt="" />
+                  <h5>Empowered Collaboration</h5>
+                  <div class="line"></div>
+                  <p>
+                    Architecture bibendum eros eget lacus the vulputate sit amet
+                    vehicuta nibhen ulicera in the vitae miss.
+                  </p>
+                  <div class="numb">03</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- VALUES SECTION END -->
+
+      <!-- BLOGS SECTION -->
+      <section class="bauen-blog section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="section-title">
+                Current <span class="grid__title">News</span>
+              </h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="owl-carousel owl-theme">
+                <div class="item">
+                  <div class="position-re o-hidden">
+                    <img
+                      src="https://via.placeholder.com/545x320"
+                      loading="lazy"
+                      alt=""
+                    />
+                  </div>
+                  <div class="con">
+                    <span class="category">
+                      <a href="blog-details.html">Architecture </a> - 20.12.2024
+                    </span>
+                    <h5>
+                      <a href="blog-details.html"
+                        >Modern Architectural Structures</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="position-re o-hidden">
+                    <img
+                      src="https://via.placeholder.com/545x320"
+                      loading="lazy"
+                      alt=""
+                    />
+                  </div>
+                  <div class="con">
+                    <span class="category">
+                      <a href="blog-details.html">Interior</a> - 18.12.2024
+                    </span>
+                    <h5>
+                      <a href="blog-details.html">Modernism in Architecture</a>
+                    </h5>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="position-re o-hidden">
+                    <img
+                      src="https://via.placeholder.com/545x320"
+                      loading="lazy"
+                      alt=""
+                    />
+                  </div>
+                  <div class="con">
+                    <span class="category">
+                      <a href="blog-details.html">Urban</a> - 16.12.2024
+                    </span>
+                    <h5>
+                      <a href="blog-details.html">Postmodern Architecture</a>
+                    </h5>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="position-re o-hidden">
+                    <img
+                      src="https://via.placeholder.com/545x320"
+                      loading="lazy"
+                      alt=""
+                    />
+                  </div>
+                  <div class="con">
+                    <span class="category">
+                      <a href="blog-details.html">Planing</a> - 14.12.2024
+                    </span>
+                    <h5>
+                      <a href="blog-details.html"
+                        >Modern Architecture Buildings</a
+                      >
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- BLOGS SECTION END -->
+
+      <!-- VIDEO TESTIMONIAL SECTION -->
+      <section class="testimonials">
+        <div
+          class="background bg-img bg-fixed section-padding pb-0"
+          data-background="https://via.placeholder.com/1920x480"
+          data-overlay-dark="3"
+        >
+          <div class="container">
+            <div class="row">
+              <!-- Promo video -->
+              <div class="col-md-6">
+                <div class="vid-area">
+                  <div class="vid-icon">
+                    <a
+                      class="play-button vid"
+                      href="https://youtu.be/RziCmLzpFNY"
+                    >
+                      <svg class="circle-fill">
+                        <circle
+                          cx="43"
+                          cy="43"
+                          r="39"
+                          stroke="#fff"
+                          stroke-width=".5"
+                        ></circle>
+                      </svg>
+                      <svg class="circle-track">
+                        <circle
+                          cx="43"
+                          cy="43"
+                          r="39"
+                          stroke="none"
+                          stroke-width="1"
+                          fill="none"
+                        ></circle>
+                      </svg>
+                      <span class="polygon">
+                        <i class="ti-control-play"></i>
+                      </span>
+                    </a>
+                  </div>
+                  <div class="cont mt-15 mb-30">
+                    <h5>View promo video</h5>
+                  </div>
+                </div>
+              </div>
+              <!-- Testiominals -->
+              <div class="col-md-5 offset-md-1">
+                <div
+                  class="testimonials-box animate-box"
+                  data-animate-effect="fadeInUp"
+                >
+                  <div class="head-box">
+                    <h4>What Client's Say?</h4>
+                  </div>
+                  <div class="owl-carousel owl-theme">
+                    <div class="item">
+                      <span class="quote"
+                        ><img
+                          src="https://via.placeholder.com/55x55"
+                          loading="lazy"
+                          alt=""
+                      /></span>
+                      <p>
+                        Architect dapibus augue metus the nec feugiat erat
+                        hendrerit nec. Duis ve ante the lemon sanleo nec feugiat
+                        erat hendrerit necuis ve ante.
+                      </p>
+                      <div class="info">
+                        <div class="author-img">
+                          <img
+                            src="https://via.placeholder.com/55x55"
+                            loading="lazy"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cont">
+                          <h6>Jason Brown</h6>
+                          <span>Crowne Plaza Owner</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <span class="quote">
+                        <img
+                          src="https://via.placeholder.com/50x50"
+                          loading="lazy"
+                          alt=""
+                        />
+                      </span>
+                      <p>
+                        Interior dapibus augue metus the nec feugiat erat
+                        hendrerit nec. Duis ve ante the lemon sanleo nec feugiat
+                        erat hendrerit necuis ve ante.
+                      </p>
+                      <div class="info">
+                        <div class="author-img">
+                          <img
+                            src="https://via.placeholder.com/55x55"
+                            loading="lazy"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cont">
+                          <h6>Emily White</h6>
+                          <span>Armada Owner</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <span class="quote">
+                        <img
+                          src="https://via.placeholder.com/50x50"
+                          loading="lazy"
+                          alt=""
+                        />
+                      </span>
+                      <p>
+                        Urban dapibus augue metus the nec feugiat erat hendrerit
+                        nec. Duis ve ante the lemon sanleo nec feugiat erat
+                        hendrerit necuis ve ante.
+                      </p>
+                      <div class="info">
+                        <div class="author-img">
+                          <img
+                            src="https://via.placeholder.com/55x55"
+                            loading="lazy"
+                            alt=""
+                          />
+                        </div>
+                        <div class="cont">
+                          <h6>Jesica Smith</h6>
+                          <span>Alsa Manager</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- VIDEO TESTIMONIAL SECTION END -->
+
+      <!-- PARTNERS SECTION -->
+      <section class="clients">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-7">
+              <div class="owl-carousel owl-theme">
+                <div class="clients-logo">
+                  <a href="#0"><img src="img/clients/1.png" alt="" /></a>
+                </div>
+                <div class="clients-logo">
+                  <a href="#0"><img src="img/clients/2.png" alt="" /></a>
+                </div>
+                <div class="clients-logo">
+                  <a href="#0"><img src="img/clients/3.png" alt="" /></a>
+                </div>
+                <div class="clients-logo">
+                  <a href="#0"><img src="img/clients/4.png" alt="" /></a>
+                </div>
+                <div class="clients-logo">
+                  <a href="#0"><img src="img/clients/5.png" alt="" /></a>
+                </div>
+                <div class="clients-logo">
+                  <a href="#0"><img src="img/clients/6.png" alt="" /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- PARTNERS SECTION END -->
+
+      <!-- FOOTER -->
+      <footer class="main-footer dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 mb-30">
+              <div class="item fotcont">
+                <div class="fothead">
+                  <h6>Phone</h6>
+                </div>
+                <p>+1 203-123-0606</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-30">
+              <div class="item fotcont">
+                <div class="fothead">
+                  <h6>Email</h6>
+                </div>
+                <p>architecture@bauen.com</p>
+              </div>
+            </div>
+            <div class="col-md-4 mb-30">
+              <div class="item fotcont">
+                <div class="fothead">
+                  <h6>Our Address</h6>
+                </div>
+                <p>24 King St, Charleston, SC 29401 USA</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sub-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="text-left">
+                  <p>© 2024 Bauen. All right reserved.</p>
+                </div>
+              </div>
+              <div class="col-md-4 abot">
+                <div class="social-icon">
+                  <a href="index.html"><i class="ti-facebook"></i></a>
+                  <a href="index.html"><i class="ti-twitter"></i></a>
+                  <a href="index.html"><i class="ti-instagram"></i></a>
+                  <a href="index.html"><i class="ti-pinterest"></i></a>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <p class="right"><a href="#">Terms &amp; Conditions</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- FOOTER END -->
+    </div>
+
+    <!-- BASE SCRIPTS -->
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/before-after.js"></script>
+    <script src="js/vegas.slider.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/app.js"></script>
+    <!-- BASE SCRIPTS END -->
+
+    <!-- PAGE SCRIPTS -->
+    <!-- PAGE SCRIPTS END -->
+  </body>
+</html>

@@ -1,0 +1,20 @@
+#career_modal {
+  .modal-dialog {
+    .modal-content {
+      .modal-body {
+        .modal__title {
+          font-size: 24px;
+          font-weight: 400;
+          color: $color-dark-grey;
+          letter-spacing: 10px;
+        }
+        .modal__subtitle {
+          font-size: 14px;
+          font-weight: 400;
+          letter-spacing: 6px;
+          color: $color-dark-grey-2;
+        }
+      }
+    }
+  }
+}
